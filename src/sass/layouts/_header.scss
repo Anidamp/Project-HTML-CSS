@@ -1,0 +1,19 @@
+.header-list {
+    display: inline-flex;
+    @media screen and (max-width:767.98px){
+        display: none;
+    }
+}
+
+.navigation {
+    display: flex;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.bg-image {
+    position: absolute;
+    z-index: -1;
+}
