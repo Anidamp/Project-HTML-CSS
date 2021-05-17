@@ -1,13 +1,16 @@
 .mobile-menu-btn {
     position: relative;
-    top: 0;
-    right: 10px;
+    top: 15px;
     z-index: 105;
     width: 30px;
     height: 16px;
     background-color: transparent;
     border: none;
     cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+        top:25px;
+    }
   
     @media screen and (min-width: 1280px) {
       display: none;
@@ -58,4 +61,13 @@
     line-height: 29px;
     line-height: 100%;
     margin-bottom: 200px;
+}
+
+.mobile-list__item {
+    margin-top: 40px;
+}
+
+.mobile-list__item:focus ,
+.mobile-list__item:hover {
+    color: var(--focus-hover-color);
 }
