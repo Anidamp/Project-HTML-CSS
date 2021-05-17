@@ -1,6 +1,6 @@
 .header-list {
     display: inline-flex;
-    @media screen and (max-width:767.98px){
+    @media screen and (max-width:1279px){
         display: none;
     }
 }
@@ -15,5 +15,12 @@ ul {
 
 .bg-image {
     position: absolute;
+    z-index: -2;
+}
+
+.header__donuts {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
     z-index: -1;
 }

@@ -1,4 +1,12 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+    }
+}
 .hero__tittle {
     color: var(--primary-text-color);
     font-family: Caveat Brush;
@@ -15,11 +23,4 @@
 .hero__label {
     margin-top: 3px;
 text-align: center;
-}
-
-.hero .button {
-    display: block;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
 }
