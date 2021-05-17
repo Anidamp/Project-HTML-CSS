@@ -72,32 +72,72 @@
     }
   }
 
+  // .review__client-text {
+  //   &.is-selected {
+  //     display: block;
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //     margin-bottom: 30px;
+  //     text-align: center;
+  //     max-width: 290px;
+  //     font-family: Montserrat;
+  //     font-size: 16px;
+  //     line-height: 1.25;
+  //     @media screen and (min-width: 768px) {
+  //       margin-bottom: 35px;
+  //       max-width: 626px;
+  //     }
+  //     @media screen and (min-width: 1280px) {
+  //       font-family: Montserrat;
+  //       font-size: 18px;
+  //       line-height: 1.22;
+  //       margin-bottom: 35px;
+  //       max-width: 626px;
+  //     }
+  //   }
+  //   &.no-selected {
+  //     display: none;
+  //   }
+  // }
+
   .review__client-text {
-    &.is-selected {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 30px;
-      text-align: center;
-      max-width: 290px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 290px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.25;
+    min-width: 0;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 35px;
+      max-width: 626px;
+    }
+    @media screen and (min-width: 1280px) {
       font-family: Montserrat;
-      font-size: 16px;
-      line-height: 1.25;
-      @media screen and (min-width: 768px) {
-        margin-bottom: 35px;
-        max-width: 626px;
-      }
-      @media screen and (min-width: 1280px) {
-        font-family: Montserrat;
-        font-size: 18px;
-        line-height: 1.22;
-        margin-bottom: 35px;
-        max-width: 626px;
-      }
+      font-size: 18px;
+      line-height: 1.22;
+      margin-bottom: 35px;
+      max-width: 626px;
     }
-    &.no-selected {
-      display: none;
-    }
+  }
+
+  /* Слайдер */
+  .slick-slider {
+    min-width: 0;
+  }
+  /* Ограничивающая оболочка */
+  .slick-list {
+    overflow: hidden;
+  }
+  /* Лента слайдов */
+  .slick-track {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .reviews__slider {
+    display: flex;
+    min-width: 0;
   }
 
   .reviews__list {
