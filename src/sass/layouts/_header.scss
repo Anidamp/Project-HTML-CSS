@@ -21,3 +21,13 @@ ul {
        margin-left: 561px;
     }
 }
+
+.spoon {
+  display: none;
+
+    @media screen and (min-width: 1280px) {
+        display: block;
+        position: absolute;
+        margin-top: 166px;
+    }
+}

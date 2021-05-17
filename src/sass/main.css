@@ -354,6 +354,18 @@ ul {
   }
 }
 
+.spoon {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .spoon {
+    display: block;
+    position: absolute;
+    margin-top: 166px;
+  }
+}
+
 .hero-container {
   display: -webkit-box;
   display: -ms-flexbox;
