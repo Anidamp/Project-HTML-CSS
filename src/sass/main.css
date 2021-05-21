@@ -1304,7 +1304,7 @@ ul {
   margin: 0;
 }
 
-.review {
+.reviews .review {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1318,35 +1318,35 @@ ul {
   max-width: 320px;
 }
 
-.review:first-child, .review:last-child {
+.reviews .review:first-child, .reviews .review:last-child {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .review:first-child, .review:last-child {
+  .reviews .review:first-child, .reviews .review:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     max-width: 110px;
   }
-  .review:not(:last-child) {
+  .reviews .review:not(:last-child) {
     margin-right: 50px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review:first-child, .review:last-child {
+  .reviews .review:first-child, .reviews .review:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     max-width: 136px;
   }
-  .review:not(:last-child) {
+  .reviews .review:not(:last-child) {
     margin-right: 60px;
   }
 }
 
-.review__slider {
+.reviews .review__slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1359,7 +1359,7 @@ ul {
           align-items: center;
 }
 
-.review__client-text {
+.reviews .review__client-text {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1368,50 +1368,50 @@ ul {
   font-family: Montserrat;
   font-size: 16px;
   line-height: 1.25;
+  margin-bottom: 35px;
 }
 
 @media screen and (min-width: 768px) {
-  .review__client-text {
+  .reviews .review__client-text {
     max-width: 626px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review__client-text {
+  .reviews .review__client-text {
     font-family: Montserrat;
     font-size: 18px;
     line-height: 1.22;
-    margin-bottom: 35px;
     max-width: 626px;
   }
 }
 
-.review__client {
+.reviews .review__client {
   max-width: 110px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  .review__client {
+  .reviews .review__client {
     min-width: 186px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review__client {
+  .reviews .review__client {
     min-width: 234px;
   }
 }
 
-.review__client-preview-next {
+.reviews .review__client-preview-next {
   display: none;
   position: absolute;
   margin: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .review__client-preview-next {
+  .reviews .review__client-preview-next {
     display: block;
     top: 0%;
     left: 70%;
@@ -1419,21 +1419,21 @@ ul {
 }
 
 @media screen and (min-width: 1280px) {
-  .review__client-preview-next {
+  .reviews .review__client-preview-next {
     display: block;
     top: 0%;
     left: 75%;
   }
 }
 
-.review__client-preview-pervious {
+.reviews .review__client-preview-pervious {
   display: none;
   position: absolute;
   margin: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .review__client-preview-pervious {
+  .reviews .review__client-preview-pervious {
     display: block;
     top: 0%;
     left: 9%;
@@ -1441,14 +1441,14 @@ ul {
 }
 
 @media screen and (min-width: 1280px) {
-  .review__client-preview-pervious {
+  .reviews .review__client-preview-pervious {
     display: block;
     top: 0%;
     left: 2%;
   }
 }
 
-.review__client-set {
+.reviews .review__client-set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1461,7 +1461,7 @@ ul {
           align-items: center;
 }
 
-.review__client-photo {
+.reviews .review__client-photo {
   display: none;
   max-width: 110px;
   border-radius: 50%;
@@ -1469,20 +1469,20 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .review__client-photo {
+  .reviews .review__client-photo {
     display: block;
     min-width: 110px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review__client-photo {
+  .reviews .review__client-photo {
     display: block;
     min-width: 11px;
   }
 }
 
-.review__client-name {
+.reviews .review__client-name {
   text-align: center;
   font-family: Montserrat;
   font-style: italic;
@@ -1493,12 +1493,12 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .review__client-name {
+  .reviews .review__client-name {
     margin-bottom: 15px;
   }
 }
 
-.review__client--rate {
+.reviews .review__client--rate {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1506,15 +1506,15 @@ ul {
       flex-wrap: nowrap;
 }
 
-.review__rate {
+.reviews .review__rate {
   margin-right: 6px;
 }
 
-.review__client-header {
+.reviews .review__client-header {
   display: none;
 }
 
-.review__counter {
+.reviews .review__counter {
   position: relative;
   display: block;
   text-align: center;
@@ -1525,20 +1525,20 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .review__counter {
+  .reviews .review__counter {
     padding-bottom: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review__counter {
+  .reviews .review__counter {
     font-size: 16px;
     line-height: 1.25;
     padding-bottom: 70px;
   }
 }
 
-.review__counter:before {
+.reviews .review__counter:before {
   display: block;
   width: 35px;
   content: '';
@@ -1549,18 +1549,18 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .review__counter:before {
+  .reviews .review__counter:before {
     left: 40%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review__counter:before {
+  .reviews .review__counter:before {
     left: 40%;
   }
 }
 
-.review__counter:after {
+.reviews .review__counter:after {
   display: block;
   width: 35px;
   content: '';
@@ -1571,13 +1571,13 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .review__counter:after {
+  .reviews .review__counter:after {
     left: 54%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .review__counter:after {
+  .reviews .review__counter:after {
     left: 54%;
   }
 }
@@ -1607,13 +1607,13 @@ ul {
 
 @media screen and (min-width: 768px) {
   .registration {
-    padding-top: 115px;
+    padding-top: 75px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .registration {
-    padding-top: 143px;
+    padding-top: 50px;
   }
 }
 
@@ -1981,17 +1981,20 @@ ul {
   background-image: url(/images/header/mobile/bg-header_mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .main {
     background-image: url(/images/header/tablet/bg-header_tablet.png);
+    max-width: 1279.98px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .main {
     background-image: url(/images/header/desktop/bg-header_desktop.png);
+    max-width: 1600px;
   }
 }
 

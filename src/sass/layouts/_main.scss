@@ -2,11 +2,14 @@
   background-image: url(/images/header/mobile/bg-header_mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
   @media screen and (min-width: 768px) {
     background-image: url(/images/header/tablet/bg-header_tablet.png);
+    max-width: 1279.98px;
   }
   @media screen and (min-width: 1280px) {
     background-image: url(/images/header/desktop/bg-header_desktop.png);
+    max-width: 1600px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
