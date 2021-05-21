@@ -7,10 +7,11 @@ ul {
   z-index: -2;
 }
 .header__donuts {
+  display: block;
   position: absolute;
   // margin-top: 0;
   // margin-left: 0;
-  z-index: 1;
+  z-index: 20;
 
   @media screen and (min-width: 768px) {
     padding-left: 254px;
