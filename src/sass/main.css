@@ -168,6 +168,7 @@ summary {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -814,8 +815,7 @@ ul {
 
 @media screen and (min-width: 1280px) {
   .about-us__container {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
   }
 }
 
