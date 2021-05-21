@@ -1,7 +1,7 @@
 .about-us {
   @media screen and (min-width: 1280px) {
-    margin-bottom: 20px;
-    z-index: -3;
+    padding-bottom: 60px;
+    z-index: 1;
   }
   &__container {
     @media screen and (min-width: 320px) {
@@ -11,6 +11,10 @@
     @media screen and (min-width: 768px) {
       display: flex;
     }
+
+    @media screen and(min-width: 1280px) {
+      margin-left: 100px;
+    }
   }
 
   &__picture {
@@ -19,7 +23,9 @@
     }
 
     @media screen and(min-width: 1280px) {
-      z-index: -3;
+      z-index: -1;
+      top: 5%;
+      position: relative;
     }
   }
   &__content {

@@ -795,8 +795,8 @@ ul {
 
 @media screen and (min-width: 1280px) {
   .about-us {
-    margin-bottom: 20px;
-    z-index: -3;
+    padding-bottom: 60px;
+    z-index: 1;
   }
 }
 
@@ -814,6 +814,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .about-us__container {
+    margin-left: 100px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
   .about-us__picture {
     width: 329.65px;
@@ -822,7 +828,9 @@ ul {
 
 @media screen and (min-width: 1280px) {
   .about-us__picture {
-    z-index: -3;
+    z-index: -1;
+    top: 5%;
+    position: relative;
   }
 }
 
@@ -1973,7 +1981,6 @@ ul {
   background-image: url(/images/header/mobile/bg-header_mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1600px;
 }
 
 @media screen and (min-width: 768px) {
