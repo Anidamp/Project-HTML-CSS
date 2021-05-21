@@ -168,7 +168,6 @@ summary {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 *,
@@ -815,7 +814,8 @@ ul {
 
 @media screen and (min-width: 1280px) {
   .about-us__container {
-    margin-left: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }
 
@@ -1286,23 +1286,6 @@ ul {
   }
 }
 
-.reviews__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding: 0;
-  margin: 0;
-}
-
 .reviews .review {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1314,35 +1297,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 320px;
-}
-
-.reviews .review:first-child, .reviews .review:last-child {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .reviews .review:first-child, .reviews .review:last-child {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 110px;
-  }
-  .reviews .review:not(:last-child) {
-    margin-right: 50px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .reviews .review:first-child, .reviews .review:last-child {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    max-width: 136px;
-  }
-  .reviews .review:not(:last-child) {
-    margin-right: 60px;
-  }
 }
 
 .reviews .review__slider {
@@ -1367,7 +1321,6 @@ ul {
   font-family: Montserrat;
   font-size: 16px;
   line-height: 1.25;
-  margin-bottom: 35px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1520,6 +1473,7 @@ ul {
   font-family: Montserrat;
   font-size: 14px;
   line-height: 1.21;
+  margin-top: 30px;
   padding-bottom: 30px;
 }
 
