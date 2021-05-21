@@ -16,7 +16,8 @@ ul {
   }
 
   @media screen and (min-width: 1280px) {
-    padding-left: 561px;
+    top: 0;
+    right: 0;
   }
 }
 
@@ -47,6 +48,6 @@ ul {
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 1280px;
+    max-width: 100vw;
   }
 }
