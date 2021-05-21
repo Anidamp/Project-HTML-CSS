@@ -629,7 +629,6 @@ ul {
 }
 
 .header__donuts {
-  display: block;
   position: absolute;
   z-index: 20;
 }
