@@ -1975,7 +1975,6 @@ ul {
 @media screen and (min-width: 1280px) {
   .main {
     background-image: url(/images/header/desktop/bg-header_desktop.png);
-    max-width: 1600px;
   }
 }
 
@@ -2015,7 +2014,6 @@ ul {
 @media screen and (min-width: 1280px) {
   .try {
     background-image: url(/images/reviews/desktop/bg_2_desktop.png);
-    max-width: 1600px;
   }
 }
 
